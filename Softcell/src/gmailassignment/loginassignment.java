@@ -106,7 +106,7 @@ public class loginassignment {
 		Thread.sleep(3000);
 		
 		// Sign out 
-		driver.findElement(By.i.xpath(".//*[@id='gb_71']")).click();
+		driver.findElement(By.xpath(".//*[@id='gb_71']")).click();
 		driver.quit();
 	
 		/**********************************Case 2: Invalid Username***********************************/
