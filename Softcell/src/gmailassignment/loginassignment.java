@@ -94,7 +94,7 @@ public class loginassignment {
 		//Move image file to new destination
 
 		SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
-        DestFile=new File("data\\Inbox.jpg");
+        DestFile=new File("D:\\Selenium\\Screenshots\\Inbox.jpg");
 
         //Copy file at destination
 
